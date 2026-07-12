@@ -2,7 +2,7 @@ import { useState } from "react"
 import { GetOrder } from "../../services/api"
 import { Loading } from "../../components/ui/buffering"
 import { NavbarPublic } from "../../components/navbar/NavbarPublic"
-import { Background } from "../../components/backgroundDesign/background"
+import { Background } from "../../components/backgroundDesign/Background"
 import Footer from "../../components/public/footer"
 
 export const Ordertrack = () => {
