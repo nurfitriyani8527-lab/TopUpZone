@@ -1,0 +1,33 @@
+export const HeroDecorations = () => {
+    return(
+        <>
+            <div
+            className="
+            absolute
+            top-16
+            right-20
+            w-24
+            h-24
+            rounded-full
+            border
+            border-[#E53950]
+            opacity-20
+            "
+            />
+            
+            <div
+            className="
+            absolute
+            bottom-20
+            left-20
+            w-8
+            h-8
+            rotate-45
+            border
+            border-[#E53950]
+            opacity-20
+            "
+            />
+        </>
+    )
+}
