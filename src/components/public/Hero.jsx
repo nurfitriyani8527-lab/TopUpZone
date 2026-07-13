@@ -1,5 +1,5 @@
 import Hayabusa from "../../assets/Hayabusa.png"
-import hayabusaSkin from "../../assets/hayabusaSkin.png"
+// import hayabusaSkin from "../../assets/hayabusaSkin.png"
 
 const Hero = () => {
     return (
@@ -67,7 +67,7 @@ const Hero = () => {
 
                     {/* Character */}
                     <img
-                        src={hayabusaSkin}
+                        src={Hayabusa}
                         alt="Hayabusa"
                         className="
                         absolute
