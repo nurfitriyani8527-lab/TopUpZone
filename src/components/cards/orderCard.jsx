@@ -67,7 +67,7 @@ export const OrderCards = ({handleSearch, filteredOrders, handleResend, handlePr
                                     Proses
                                 </button>
                                     <button
-                                        onClick={handleDelete}
+                                        onClick={() => handleDelete(order._id)}
                                             className="flex items-center gap-2 px-3 py-2 rounded-lg bg-red-900/20 border border-red-700/40 text-red-300 hover:bg-red-800/30 hover:border-red-500 transition-all duration-300"
                                     >
                                         <Trash2 size={16} />

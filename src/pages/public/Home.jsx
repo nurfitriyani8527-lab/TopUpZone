@@ -152,9 +152,9 @@ export const Home = () => {
                 </div>
                 
             </section>
-            <WhyChooseUs/>
             <HowToTopup/>
             <PaymentMethods/>
+            <WhyChooseUs/>
             <FAQ/>
             <Footer/>
             </div>
