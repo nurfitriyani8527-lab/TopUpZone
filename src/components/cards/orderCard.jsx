@@ -51,20 +51,19 @@ export const OrderCards = ({handleSearch, filteredOrders, handleResend, handlePr
                             </td>
                             <td>
                                 <div className="flex items-center gap-2">
-                                    <button
-                                        onClick={handleResend}
-                                            className="flex items-center gap-2 px-3 py-2 rounded-lg bg-red-900/20 border border-red-700/40 text-red-300 hover:bg-red-800/30 hover:border-red-500 transition-all duration-300"
-                                    >
-                                        <Send size={16} />
-                                        Resend
-                                    </button>
-                                    <button
-                                        onClick={handleProcess}
-                                            className="flex items-center gap-2 px-3 py-2 rounded-lg bg-green-900/20 border border-green-700/40 text-green-300 hover:bg-green-800/30 hover:border-green-500 transition-all duration-300"
-                                    >
-                                        <Play size={16} />
-                                        Proses
-                                    </button>
+                                <button
+                                    onClick={() => handleResend(order._id)}
+                                >
+                                    <Send size={16} />
+                                    Resend
+                                </button>
+                                                                
+                                <button
+                                    onClick={() => handleProcess(order._id)}
+                                >
+                                    <Play size={16} />
+                                    Proses
+                                </button>
                                     <button
                                         onClick={handleDelete}
                                             className="flex items-center gap-2 px-3 py-2 rounded-lg bg-red-900/20 border border-red-700/40 text-red-300 hover:bg-red-800/30 hover:border-red-500 transition-all duration-300"
